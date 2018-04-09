@@ -42,9 +42,9 @@ def plot_decision_tree(clf, feature_names, class_names):
     # import sys; sys.executable
     # !{sys.executable} -m pip install pydotplus
 
-    export_graphviz(clf, out_file="readonly/adspy_temp.dot", feature_names=feature_names,
+    export_graphviz(clf, out_file="temp.dot", feature_names=feature_names,
                     class_names=class_names, filled=True, impurity=False)
-    with open("readonly/adspy_temp.dot") as f:
+    with open("temp.dot") as f:
         dot_graph = f.read()
     # Alternate method using pydotplus, if installed.
     # graph = pydotplus.graphviz.graph_from_dot_data(dot_graph)
