@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "C:\\Users\\csell\\OneDrive\\myapps\\model_project\\instructions"
 		}
 	],
 	"settings": {}
