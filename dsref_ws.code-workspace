@@ -7,5 +7,7 @@
 			"path": "C:\\Users\\csell\\OneDrive\\myapps\\model_project\\instructions"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Data_Science_Reference"
+	}
 }
